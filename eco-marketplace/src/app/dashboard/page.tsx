@@ -39,7 +39,7 @@ export default function DashboardPage() {
       <div className="grid md:grid-cols-2 gap-6 mt-10">
 
         <div className="bg-white p-6 rounded-2xl shadow-md">
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl text-black font-bold">
             Total Listings
           </h2>
 
@@ -49,7 +49,7 @@ export default function DashboardPage() {
         </div>
 
         <div className="bg-white p-6 rounded-2xl shadow-md">
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl text-black font-bold">
             Total Waste Quantity
           </h2>
 

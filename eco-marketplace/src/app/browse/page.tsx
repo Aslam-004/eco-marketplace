@@ -52,7 +52,7 @@ export default function BrowsePage() {
             key={item.id}
             className="bg-white p-6 rounded-2xl shadow-md"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl text-blue-300 font-bold">
               {item.material}
             </h2>
 

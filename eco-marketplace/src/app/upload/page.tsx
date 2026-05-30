@@ -39,9 +39,9 @@ export default function UploadPage() {
   };
 
   return (
-    <main className="min-h-screen p-10 bg-white">
+    <main className="min-h-screen text-green-700 p-10 bg-white">
 
-      <h1 className="text-5xl font-bold text-green-700">
+      <h1 className="text-5xl font-bold ">
         Upload Waste
       </h1>
 

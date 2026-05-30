@@ -94,6 +94,55 @@ export default function Home() {
 
       </section>
 
+      {/* About EcoLoop Section */}
+      <section className="py-20 px-10 bg-white">
+       <div className="max-w-5xl mx-auto text-center">
+
+        <h2 className="text-4xl font-bold text-green-700">
+         About EcoLoop
+        </h2>
+
+        <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+         EcoLoop is a circular economy marketplace that connects industries,
+         recyclers, and buyers to transform waste into valuable resources.
+         Instead of sending reusable materials to landfills, businesses can
+         list their waste materials on EcoLoop, allowing others to purchase,
+         recycle, or repurpose them sustainably.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+         <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+          <h3 className="text-2xl font-bold text-green-700">
+           ♻️ Reduce Waste
+          </h3>
+          <p className="mt-3 text-gray-600">
+           Divert reusable materials away from landfills.
+          </p>
+         </div>
+
+         <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+          <h3 className="text-2xl font-bold text-green-700">
+           🌱 Promote Sustainability
+          </h3>
+          <p className="mt-3 text-gray-600">
+            Encourage responsible recycling and resource reuse.
+          </p>
+         </div>
+
+         <div className="bg-green-50 p-6 rounded-2xl shadow-sm">
+          <h3 className="text-2xl font-bold text-green-700">
+           🤝 Connect Businesses
+          </h3>
+          <p className="mt-3 text-gray-600">
+            Create opportunities between waste producers and buyers.
+          </p>
+         </div>
+
+        </div>
+      </div>
+</section>
+
       {/* Footer */}
       <footer className="bg-green-700 text-white text-center py-6">
         <p>

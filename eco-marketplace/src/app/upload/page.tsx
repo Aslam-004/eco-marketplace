@@ -13,6 +13,7 @@ export default function UploadPage() {
   const [material, setMaterial] = useState("");
   const [quantity, setQuantity] = useState("");
   const [description, setDescription] = useState("");
+  const [category, setCategory] = useState("Plastic");
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
@@ -22,6 +23,7 @@ export default function UploadPage() {
       await addDoc(collection(db, "materials"), {
         material,
         quantity,
+        category,
         description,
         createdAt: new Date(),
       });
@@ -65,6 +67,18 @@ export default function UploadPage() {
           onChange={(e) => setQuantity(e.target.value)}
           className="w-full border p-4 rounded-xl"
         />
+
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="w-full border p-4 rounded-xl"
+        >
+          <option>Plastic</option>
+          <option>Metal</option>
+          <option>Paper</option>
+          <option>Glass</option>
+          <option>E-Waste</option>
+        </select>
 
         <textarea
           placeholder="Description"
